@@ -1,0 +1,14 @@
+export GTK_THEME=Tokyonight-Dark
+export QT_STYLE_OVERRIDE=kvantum
+export GRIM_DEFAULT_DIR=$HOME/pictures/screenshots
+export XCURSOR_SIZE=24
+export HYPRCURSOR_SIZE=24
+export LIBVA_DRIVER_NAME=nvidia
+export __GLX_VENDOR_LIBRARY_NAME=nvidia
+export HYPRCURSOR_THEME='rose-pine-cursor-hyprcursor'
+export XCURSOR_THEME='rose-pine-cursor-hyprcursor'
+export TERMINAL='uwsm app -- alacritty'
+export PATH="$PATH:$HOME/.cargo/bin"
+export PATH="$PATH:$HOME/.dotnet/tools"
+dotcolors apply --skip-run
+

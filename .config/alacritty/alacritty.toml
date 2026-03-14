@@ -1,0 +1,113 @@
+[terminal]
+shell = "/bin/fish"
+
+[env]
+EDITOR = "/bin/nvim"
+
+[mouse]
+hide_when_typing = true
+
+[window]
+opacity = 0.6
+padding = {x = 4, y = 4}
+
+[font]
+normal = { family = "Mango", style = "Regular" }
+bold = {style = "Regular"}
+italic = {style = "Regular"}
+bold_italic = {style = "Regular"}
+offset = { x = 0, y = 0 }
+
+size = 15
+builtin_box_drawing = false
+
+[debug]
+# render_timer = true
+
+## color theme
+[colors.primary] 
+# @@txt_main@@
+foreground =  "#f071ae" 
+# @@dark_base@@
+background = "#060002" 
+# @@light_main@@
+dim_foreground = "#d15895"
+# @@light_highlight@@
+bright_foreground = "#e172a8"
+
+[colors]
+# transparent_background_colors = true
+# @@txt_white@@
+cursor = { text = "CellBackground", cursor = "#ffefef" }
+# @@txt_white@@
+vi_mode_cursor = { text = "CellBackground", cursor = "#ffefef" }
+# @@txt_sel@@
+selection = { text = "CellForeground", background = "#00236d" }
+# @@txt_highlight, light_base@@ 
+footer_bar = { foreground = "#e571f0", background = "#ab3d77" }
+
+[colors.hints]
+# @@txt_dark, txt_yellow@@
+start = { foreground = "#1f1f1f", background = "#f2e82e" }
+# @@txt_dark, txt_orange@@
+end = { foreground = "#1f1f1f", background = "#dF6350" }
+
+[colors.search]
+# @@txt_highlight@@
+matches = { foreground = "CellBackground", background = "#e571f0"}
+# @@txt_yellow@@
+focused_match = { foreground = "CellBackground", background = "#f2e82e" }
+
+[colors.normal]
+# @@txt_dark@@
+black = "#1f1f1f"
+# @@txt_red@@
+red = "#d1261d"
+# @@txt_green@@
+green = "#53bf26"
+# @@txt_yellow@@
+yellow = "#f2e82e"
+# @@txt_blue@@
+blue = "#6287FC"
+# @@txt_purple@@
+magenta = "#8351FC"
+# @@txt_cyan@@
+cyan = "#82d4fC"
+# @@txt_white@@
+white = "#ffefef"
+
+[colors.bright]
+# @@txt_pale@@ used for autocompletion hints!
+black = "#cf3680"
+# @@txt_red@@
+red = "#d1261d"
+# @@txt_green@@
+green = "#53bf26"
+# @@txt_yellow@@
+yellow = "#f2e82e"
+# @@txt_blue@@
+blue = "#6287FC"
+# @@txt_purple@@
+magenta = "#8351FC"
+# @@txt_cyan@@
+cyan = "#82d4fC"
+# @@txt_white@@
+white = "#ffefef"
+
+[colors.dim]
+# @@txt_dark@@
+black = "#1f1f1f"
+# @@txt_red@@
+red = "#d1261d"
+# @@txt_green@@
+green = "#53bf26"
+# @@txt_yellow@@
+yellow = "#f2e82e"
+# @@txt_blue@@
+blue = "#6287FC"
+# @@txt_purple@@
+magenta = "#8351FC"
+# @@txt_cyan@@
+cyan = "#82d4fC"
+# @@txt_white@@
+white = "#ffefef"

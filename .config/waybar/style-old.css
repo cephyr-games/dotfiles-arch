@@ -1,0 +1,141 @@
+@import "colors.css";
+
+* {
+  font-family: "Mango", "JetBrainsMono Nerd Font";
+  font-size: 20px;
+  text-shadow: 0px 3px 0px rgba(0, 0, 0, 1.0);
+}
+
+window#waybar {
+  background: linear-gradient(to bottom, alpha(@dark_main, 0.6), alpha(@light_base, 0.6));
+  /* background: linear-gradient(to bottom, alpha(@theme_bg_color, 0.6), alpha(@theme_base_color, 0.6)); */
+  border-radius: 8px;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+button {
+  border-radius: 8px;
+  margin: 4px 2px;
+  min-width: 12px;
+  transition: all 0.3s ease;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+button:hover {
+  background: inherit;
+}
+
+#workspaces button {
+  color: @txt_main;
+  min-width: 22px;
+  padding: 0 5px;
+}
+
+#workspaces button:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+#workspaces button.focused {
+  background-color: @txt_red;
+  box-shadow: inset 0 -3px #ffffff;
+}
+
+#workspaces button.urgent {
+  background-color: #eb4d4b;
+}
+
+#mode {
+  background-color: #64727D;
+  box-shadow: inset 0 -3px #ffffff;
+}
+
+#clock,
+#battery,
+#bluetooth,
+#backlight,
+#power-profiles-daemon,
+#cpu,
+#memory,
+#temperature,
+#network,
+#pulseaudio {
+  padding: 0 12px;
+}
+
+#user {
+  color: @txt_blue;
+}
+
+#memory {
+  color: @txt_green;
+}
+
+#bluetooth {
+  color: @txt_blue;
+}
+
+#cpu {
+  color: @txt_green;
+}
+
+#pulseaudio {
+  color: @txt_green;
+}
+
+#network {
+  color: @txt_blue;
+}
+
+#temperature {
+  color: @txt_red;
+}
+
+#power-profiles-daemon {
+  color: @txt_green;
+}
+
+#backlight {
+  color: @txt_cyan;
+}
+
+#battery {
+  color: @txt_cyan;
+}
+
+#clock {
+  color: @txt_main;
+}
+
+.modules-right {
+  padding: 0 10px;
+}
+
+.modules-left {
+  padding: 0 20px;
+}
+
+.modules-center {
+  padding: 0 10px;
+}
+
+@keyframes blink {
+  to {
+    color: #604040;
+  }
+}
+
+/* Using steps() instead of linear as a timing function to limit cpu usage */
+#battery.critical:not(.charging) {
+  background-color: #f53c3c;
+  color: @txt_green;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: steps(12);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+label:focus {
+  background-color: #000000;
+}
+

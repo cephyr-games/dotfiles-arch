@@ -1,0 +1,152 @@
+"attribute" = "macro"
+
+
+"type" = "type"
+"type.builtin" = "builtin"
+
+"constructor" = "type"
+
+"constant" = "type"
+"constant.builtin" = "emph_0"
+"constant.character" = "string"
+"constant.character.escape" = "fg"
+"constant.numeric" = "primitive"
+
+"string" = "string"
+
+"comment" = { fg = "pale" }
+
+"variable" = "variable"
+"variable.other.member" = "property"
+"variable.builtin" = "builtin"
+
+"label" = "macro" # used for lifetimes
+
+"punctuation" = "fg"
+"punctuation.special" = "highlight"
+
+"keyword" = "keyword"
+
+"operator" = "func"
+
+"function" = "func"
+"function.builtin" = "builtin"
+"function.macro" = "macro"
+
+"tag" = "type"
+
+"namespace" = "fg" 
+
+"special" = "macro" # fuzzy highlight :(
+
+# don't think I care for markup
+# "markup.heading" = "red"
+# "markup.list" = "teal"
+# "markup.list.unchecked" = "overlay2"
+# "markup.list.checked" = "green"
+# "markup.bold" = { fg = "red", modifiers = ["bold"] }
+# "markup.italic" = { fg = "red", modifiers = ["italic"] }
+# "markup.link.url" = { fg = "blue", modifiers = ["italic", "underlined"] }
+# "markup.link.text" = "lavender"
+# "markup.link.label" = "sapphire"
+# "markup.raw" = "green"
+# "markup.quote" = "pink"
+
+diff.plus = "green"
+diff.minus = "orange"
+diff.delta = "blue"
+
+# User Interface
+# --------------
+
+"markup" = { bg = "bg" }
+ 
+"ui.background" = { }
+ 
+"ui.cursor" = { fg = "dark", bg = "emph_0"}
+"ui.cursor.primary" = { fg = "dark", bg = "white" }
+"ui.cursor.match" = { fg = "emph_1" }
+
+"ui.linenr" = { fg = "pale" }
+ 
+"ui.statusline" = { fg = "fg", bg = "bg_light" }
+"ui.statusline.inactive" = { fg = "pale", bg = "bg" }
+"ui.statusline.normal" = { fg = "emph_0", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "emph_1", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "emph_2", modifiers = ["bold"] }
+
+"ui.bufferline" = { fg = "pale", bg = "bg" }
+"ui.bufferline.active" = { fg = "emph_0", bg = "bg_light"}
+"ui.bufferline.background" = { fg = "pale", bg = "bg" }
+
+"ui.popup" = { bg = "bg" } 
+"ui.popup.info" = { fg = "fg", bg = "" }
+
+"ui.window" = { fg = "fb" }
+"ui.help" = { fg = "fg", bg = "" }
+
+"ui.text" = "fg"
+"ui.text.focus" = { fg = "emph_0" }
+"ui.text.inactive" = { fg = "pale" }
+# The key: command text in ui.popup.info boxes
+# "ui.text.info" = { fg = "emph_0" }
+"ui.text.directory" = { fg = "type" }
+
+
+"ui.virtual" = { fg = "pale" }
+"ui.virtual.jump-label" = { fg = "emph_2" }
+
+"ui.menu" = { bg = "bg" }
+"ui.menu.selected" = { fg = "fg", bg = "sel" }
+"ui.menu.scroll" = { fg = "fg" } 
+
+"ui.selection" = { bg = "sel" }
+
+# "ui.cursorline.primary" = { bg = {} }
+
+"ui.highlight" = { bg = "bg_light" }
+"ui.highlight.frameline" = { bg = "bg_light" }
+
+"error" = "red"
+"warning" = "yellow"
+"info" = "blue"
+"hint" = "cyan"
+
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "yellow", style = "curl" } }
+"diagnostic.info" = { underline = { color = "blue", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "cyan", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+
+rainbow = ["red", "peach", "yellow", "green", "sapphire", "lavender"]
+
+[palette]
+fg = "#f071ae" # @@txt_main@@
+bg = "#211111" # @@dark_main@@
+bg_light = "#ab3d77" # @@light_base@@
+
+sel = "#00236d" # @@txt_sel@@
+emph_0 = "#a0d070" # @@txt_emph_0@@
+emph_1 = "#82d4fC" # @@txt_emph_1@@
+emph_2 = "#fff86f" # @@txt_emph_2@@
+pale = "#cf3680" # @@txt_pale@@
+dark = "#1f1f1f" # @@txt_dark@@
+
+white = "#ffefef" # @@txt_white@@
+red = "#d1261d" # @@txt_red@@
+orange = "#dF6350" # @@txt_orange@@
+yellow = "#f2e82e" # @@txt_yellow@@
+green = "#53bf26" # @@txt_green@@
+cyan = "#82d4fC" # @@txt_cyan@@
+blue = "#6287FC" # @@txt_blue@@
+
+type = "#8351FC" # @@lsp_type@@
+string = "#82d4fC" # @@lsp_string@@
+primitive = "#ffefef" # @@lsp_primitive@@
+macro = "#f2e82e" # @@lsp_macro@@
+keyword = "#e571f0" # @@lsp_keyword@@
+builtin = "#e571f0" # @@lsp_builtin@@
+func = "#6287FC" # @@lsp_function@@
+property = "#6287FC" # @@lsp_property@@
+exception = "#d1261d" # @@lsp_exception@@
+variable = "#f071ae" # @@lsp_variable@@

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "Backing up system config..."
+cp /etc/pacman.conf ~/.config/.system_setup/
+cp /etc/mkinitcpio.conf ~/.config/.system_setup/
+cp /etc/locale.gen ~/.config/.system_setup/
+cp /etc/locale.conf ~/.config/.system_setup/
+cp /etc/profile ~/.config/.system_setup/
+pkgbible ~/.config/.system_setup/pkglist.toml
+
+echo "Backup complete!"

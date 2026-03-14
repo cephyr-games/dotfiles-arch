@@ -1,0 +1,23 @@
+@define-color red-light #f52a65;
+@define-color red-dark #f7768e;
+@define-color pink-light #d20065;
+@define-color pink-dark #ff007c;
+@define-color purple-light #7847bd;
+@define-color purple-dark #bb9af7;
+@define-color blue-light #2e7de9;
+@define-color blue-dark #7aa2f7;
+@define-color teal-light #118c74;
+@define-color teal-dark #1abc9c;
+@define-color cyan-light #007197;
+@define-color cyan-dark #7dcfff;
+@define-color green-light #387068;
+@define-color green-dark #73daca;
+@define-color yellow-light #8c6c3e;
+@define-color yellow-dark #e0af68;
+@define-color orange-light #b15c00;
+@define-color orange-dark #ff9e64;
+@define-color accent-light #006a83;
+@define-color accent-dark #27a1b9;
+@define-color white #e9e9ed;
+@define-color black #1a1b26;
+

@@ -1,0 +1,5 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR EMOTICON:\x40_\x40
+SETUVAR __fish_initialized:4300
+SETUVAR fish_greeting:Welcome\x20to\x20fish\x20\x3a\x29

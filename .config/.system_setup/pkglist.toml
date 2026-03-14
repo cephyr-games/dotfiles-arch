@@ -1,0 +1,439 @@
+[cava]
+desc = "Console-based Audio Visualizer with support for multiple backends"
+tags = ['KEEP']
+
+[networkmanager]
+desc = "Network connection manager and user applications"
+tags = ['KEEP']
+
+[openssh]
+desc = "SSH protocol implementation for remote login, command execution and file transfer"
+tags = ['KEEP']
+
+[krita]
+desc = "Edit and paint images"
+tags = ['KEEP']
+
+[pipewire-audio]
+desc = "Low-latency audio/video router and processor - Audio support"
+tags = ['KEEP']
+
+[hypridle]
+desc = "hyprland’s idle daemon"
+tags = ['KEEP']
+
+[libreoffice-still]
+desc = "LibreOffice maintenance branch"
+tags = ['KEEP']
+
+[paru]
+desc = "Feature packed AUR helper"
+tags = ['FOREIGN']
+
+[swaync]
+desc = "A simple GTK based notification daemon for Sway"
+tags = ['KEEP']
+
+[fish]
+desc = "Smart and user friendly shell intended mostly for interactive use"
+tags = ['KEEP']
+
+[rustup]
+desc = "The Rust toolchain installer"
+tags = ['KEEP']
+
+[uwsm]
+desc = "A standalone Wayland session manager"
+tags = ['KEEP']
+
+[base-devel]
+desc = "Basic tools to build Arch Linux packages"
+tags = []
+
+[hyprpolkitagent]
+desc = "Simple polkit authentication agent for Hyprland, written in QT/QML"
+tags = ['KEEP']
+
+[egl-wayland]
+desc = "EGLStream-based Wayland external platform"
+tags = ['KEEP', 'REMOVED']
+
+[ripgrep]
+desc = "A search tool that combines the usability of ag with the raw speed of grep"
+tags = ['KEEP']
+
+[snap-pac]
+desc = "Pacman hooks that use snapper to create pre/post btrfs snapshots like openSUSE's YaST"
+tags = ['KEEP']
+
+[jdk-openjdk]
+desc = "OpenJDK Java 24 development kit"
+tags = []
+
+[todoman]
+desc = "A simple, standards-based, cli todo (aka: task) manager"
+tags = ['KEEP']
+
+[xdg-desktop-portal-hyprland]
+desc = "xdg-desktop-portal backend for hyprland"
+tags = ['KEEP']
+
+[veracrypt]
+desc = "Disk encryption with strong security based on TrueCrypt"
+tags = []
+
+[alsa-utils]
+desc = "Advanced Linux Sound Architecture - Utilities"
+tags = ['KEEP']
+
+[gtk4]
+desc = "GObject-based multi-platform GUI toolkit"
+tags = ['KEEP']
+
+[pipewire-pulse]
+desc = "Low-latency audio/video router and processor - PulseAudio replacement"
+tags = ['KEEP']
+
+[snapper]
+desc = "A tool for managing BTRFS and LVM snapshots"
+tags = ['KEEP']
+
+[starship]
+desc = "The cross-shell prompt for astronauts"
+tags = ['KEEP']
+
+[libnotify]
+desc = "Library for sending desktop notifications"
+tags = ['KEEP']
+
+[nano]
+desc = "Pico editor clone with enhancements"
+tags = ['KEEP']
+
+[cliphist]
+desc = "wayland clipboard manager"
+tags = ['KEEP']
+
+[clang]
+desc = "C language family frontend for LLVM"
+tags = ['KEEP']
+
+[waybar]
+desc = "Highly customizable Wayland bar for Sway and Wlroots based compositors"
+tags = ['KEEP']
+
+[tig]
+desc = "Text-mode interface for Git."
+tags = ['KEEP']
+
+[vim]
+desc = "Vi Improved, a highly configurable, improved version of the vi text editor"
+tags = ['KEEP']
+
+[linux]
+desc = "The Linux kernel and modules"
+tags = []
+
+[pavucontrol]
+desc = "PulseAudio Volume Control"
+tags = ['KEEP']
+
+[steam]
+desc = "Valve's digital software delivery system"
+tags = []
+
+[power-profiles-daemon]
+desc = "Makes power profiles handling available over D-Bus"
+tags = ['KEEP']
+
+[wireplumber]
+desc = "Session / policy manager implementation for PipeWire"
+tags = ['KEEP']
+
+[qt5-wayland]
+desc = "Provides APIs for Wayland"
+tags = ['KEEP']
+
+[git]
+desc = "the fast distributed version control system"
+tags = ['KEEP']
+
+[kvantum-qt5]
+desc = "SVG-based theme engine for Qt5"
+tags = ['KEEP']
+
+[slurp]
+desc = "Select a region in a Wayland compositor"
+tags = ['KEEP']
+
+[pipewire]
+desc = "Low-latency audio/video router and processor"
+tags = ['KEEP']
+
+[efibootmgr]
+desc = "Linux user-space application to modify the EFI Boot Manager"
+tags = ['KEEP']
+
+[man-pages]
+desc = "Linux man pages"
+tags = ['KEEP']
+
+[sudo]
+desc = "Give certain users the ability to run some commands as root"
+tags = ['KEEP']
+
+[kvantum]
+desc = "SVG-based theme engine for Qt6 (including config tool and extra themes)"
+tags = ['KEEP']
+
+[linux-firmware]
+desc = "Firmware files for Linux - Default set"
+tags = ['KEEP']
+
+[btop]
+desc = "A monitor of system resources, bpytop ported to C++"
+tags = ['KEEP']
+
+[neovim]
+desc = "Fork of Vim aiming to improve user experience, plugins, and GUIs"
+tags = ['KEEP']
+
+[btrfs-progs]
+desc = "Btrfs filesystem utilities"
+tags = ['KEEP']
+
+[paru-debug]
+desc = "Detached debugging symbols for paru"
+tags = ['FOREIGN']
+
+[gtk-engine-murrine]
+desc = "GTK2 engine to make your desktop look like a 'murrina', an italian word meaning the art glass works done by Venicians glass blowers."
+tags = ['KEEP', 'FOREIGN']
+
+[tree-sitter-cli]
+desc = "CLI tool for developing, testing, and using Tree-sitter parsers"
+tags = ['KEEP']
+
+[mold]
+desc = "A Modern Linker"
+tags = ['KEEP']
+
+[sof-firmware]
+desc = "Sound Open Firmware"
+tags = ['KEEP']
+
+[wl-clipboard]
+desc = "Command-line copy/paste utilities for Wayland"
+tags = ['KEEP']
+
+[grim]
+desc = "Screenshot utility for Wayland"
+tags = ['KEEP']
+
+[ttf-nerd-fonts-symbols-mono]
+desc = "High number of extra glyphs from popular 'iconic fonts' (monospace)"
+tags = ['KEEP']
+
+[firewalld]
+desc = "Firewall daemon with D-Bus interface"
+tags = ['KEEP']
+
+[ttf-liberation]
+desc = "Font family which aims at metric compatibility with Arial, Times New Roman, and Courier New"
+tags = ['KEEP']
+
+[base]
+desc = "Minimal package set to define a basic Arch Linux installation"
+tags = []
+
+[nvidia-utils]
+desc = "NVIDIA drivers utilities"
+tags = []
+
+[texinfo]
+desc = "GNU documentation system for on-line information and printed output"
+tags = ['KEEP']
+
+[typst]
+desc = "A markup-based typesetting system for the sciences"
+tags = ['KEEP']
+
+[grub-btrfs]
+desc = "Include btrfs snapshots in GRUB boot options"
+tags = ['KEEP']
+
+[pipewire-alsa]
+desc = "Low-latency audio/video router and processor - ALSA configuration"
+tags = ['KEEP']
+
+[fastfetch]
+desc = "A feature-rich and performance oriented neofetch like system information tool"
+tags = ['KEEP']
+
+[firefox]
+desc = "Fast, Private & Safe Web Browser"
+tags = ['KEEP']
+
+[kitty]
+desc = "A modern, hackable, featureful, OpenGL-based terminal emulator"
+tags = ['KEEP']
+
+[wayland-utils]
+desc = "Wayland tools to display information about current compositor"
+tags = ['KEEP']
+
+[qt6-wayland]
+desc = "Provides APIs for Wayland"
+tags = ['KEEP']
+
+[cmake]
+desc = "A cross-platform open-source make system"
+tags = ['KEEP']
+
+[man-db]
+desc = "A utility for reading man pages"
+tags = ['KEEP']
+
+[onefetch]
+desc = "Git repository summary on your terminal"
+tags = ['KEEP']
+
+[hyprlock]
+desc = "hyprland’s GPU-accelerated screen locking utility"
+tags = ['KEEP']
+
+[wev]
+desc = "A tool for debugging wayland events on a Wayland window, analagous to the X11 tool xev"
+tags = ['KEEP']
+
+[7zip]
+desc = "File archiver for extremely high compression"
+tags = ['KEEP']
+
+[imagemagick]
+desc = "An image viewing/manipulation program"
+tags = ['KEEP']
+
+[fd]
+desc = "Simple, fast and user-friendly alternative to find"
+tags = ['KEEP']
+
+[yazi]
+desc = "Blazing fast terminal file manager written in Rust, based on async I/O"
+tags = ['KEEP']
+
+[jq]
+desc = "Command-line JSON processor"
+tags = ['KEEP']
+
+[resvg]
+desc = "SVG rendering library and CLI"
+tags = ['KEEP']
+
+[fzf]
+desc = "Command-line fuzzy finder"
+tags = ['KEEP']
+
+[python-tomlkit]
+desc = "Style-preserving TOML library for Python"
+tags = ['KEEP']
+
+[qmk]
+desc = "CLI tool for customizing supported mechanical keyboards."
+tags = []
+
+[unzip]
+desc = "For extracting and viewing files in .zip archives"
+tags = ['KEEP']
+
+[lib32-nvidia-utils]
+desc = "NVIDIA drivers utilities (32-bit)"
+tags = []
+
+[hyprpicker]
+desc = "A wlroots-compatible Wayland color picker that does not suck"
+tags = []
+
+[signal-desktop]
+desc = "Signal Private Messenger for Linux"
+tags = []
+
+[hyprsunset]
+desc = "An application to enable a blue-light filter on Hyprland"
+tags = ['KEEP']
+
+[filezilla]
+desc = "Fast and reliable FTP, FTPS and SFTP client"
+tags = []
+
+[bricklink-studio]
+desc = "Lego cad software created by Bricklink"
+tags = ['FOREIGN']
+
+["dotnet-sdk-8.0"]
+desc = "The .NET Core SDK"
+tags = []
+
+[hyprpaper]
+desc = "a blazing fast wayland wallpaper utility with IPC controls"
+tags = ['KEEP']
+
+[alacritty]
+desc = "A cross-platform, GPU-accelerated terminal emulator"
+tags = ['KEEP']
+
+[nvidia-open]
+desc = "NVIDIA open kernel modules"
+tags = []
+
+[gdscript-formatter-bin]
+desc = "A fast code formatter for GDScript and Godot 4, written in Rust"
+tags = ['FOREIGN']
+
+[zip]
+desc = "Compressor/archiver for creating and modifying zipfiles"
+tags = []
+
+[keepassxc]
+desc = "Cross-platform community-driven port of Keepass password manager"
+tags = []
+
+[minecraft-launcher]
+desc = "Official Minecraft Launcher"
+tags = ['FOREIGN']
+
+[hyprland]
+desc = "a highly customizable dynamic tiling Wayland compositor"
+tags = ['KEEP']
+
+[tokei]
+desc = "A blazingly fast CLOC (Count Lines Of Code) program"
+tags = ['KEEP']
+
+[helix]
+desc = "A post-modern modal text editor"
+tags = ['KEEP']
+
+[openbsd-netcat]
+desc = "TCP/IP swiss army knife. OpenBSD variant."
+tags = []
+
+[aspnet-runtime]
+desc = "The ASP.NET Core runtime"
+tags = []
+
+[xdg-desktop-portal-gnome]
+desc = "Backend implementation for xdg-desktop-portal for the GNOME desktop environment"
+tags = []
+
+[grub]
+desc = "GNU GRand Unified Bootloader (2)"
+tags = []
+
+[dotnet-sdk]
+desc = "The .NET Core SDK"
+tags = []
+
+[amd-ucode]
+desc = "Microcode update image for AMD CPUs"
+tags = []
