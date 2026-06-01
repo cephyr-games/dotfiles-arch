@@ -3,7 +3,9 @@ My minimal, ergonomic setup for everyday use.
 
 **Warning!** This is a personal project, I might make undocumented breaking changes at any time and offer no support.
 
-Feel free to *borrow* whatever you want from this though.
+I have moved to NixOS now, my config can be found [here](https://github.com/cephyr-games/nixos-config).
+
+This repository will stay up, in case it is useful to anyone or I need to switch back.
 
 ![Photo](pictures/system_photo.png)
 ![Lockscreen photo](pictures/lockscreen_photo.png)
